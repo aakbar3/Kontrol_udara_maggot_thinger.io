@@ -63,7 +63,7 @@ Proyek IoT untuk **monitoring dan kontrol otomatis suhu serta kelembapan** pada 
 
 ---
 
-📊 Logika Kontrol Alat
+## 📊 Logika Kontrol Alat
 
 | Kondisi                           | Heater | Mist Maker |
 | --------------------------------- | ------ | ---------- |
@@ -73,7 +73,7 @@ Proyek IoT untuk **monitoring dan kontrol otomatis suhu serta kelembapan** pada 
 
 ---
 
-🧪 Upload Kode
+## 🧪 Upload Kode
 
 1. Install Arduino IDE
 2. Tambahkan board ESP8266 di Board Manager
@@ -87,12 +87,12 @@ Proyek IoT untuk **monitoring dan kontrol otomatis suhu serta kelembapan** pada 
 
 ---
 
-📬 Kontribusi & Saran
+## 📬 Kontribusi & Saran
 
 Silakan buka Issue atau Pull Request jika ingin berkontribusi.
 
 ---
 
-📄 Lisensi
+## 📄 Lisensi
 
 Proyek ini dibuat untuk keperluan pendidikan dan skripsi. Bebas digunakan dan dimodifikasi.
