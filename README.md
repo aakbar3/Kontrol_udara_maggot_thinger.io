@@ -61,14 +61,20 @@ Proyek IoT untuk **monitoring dan kontrol otomatis suhu serta kelembapan** pada 
 4. Buat bucket sesuai yang ingin di tuju di databucket Thinger.io
 5. Data akan otomatis masuk setiap 1 menit
 
+---
+
 📊 Logika Kontrol Alat
+
 | Kondisi                           | Heater | Mist Maker |
 | --------------------------------- | ------ | ---------- |
 | Suhu < 30°C atau Kelembapan > 80% | ON     | OFF        |
 | Suhu ≥ 36°C atau Kelembapan < 70% | OFF    | ON         |
 | Di antara nilai ambang            | OFF    | OFF        |
 
+---
+
 🧪 Upload Kode
+
 1. Install Arduino IDE
 2. Tambahkan board ESP8266 di Board Manager
 3. Install library berikut:
@@ -79,8 +85,14 @@ Proyek IoT untuk **monitoring dan kontrol otomatis suhu serta kelembapan** pada 
 5. Pilih board: NodeMCU 1.0 (ESP-12E)
 6. Upload kode
 
+---
+
 📬 Kontribusi & Saran
+
 Silakan buka Issue atau Pull Request jika ingin berkontribusi.
 
+---
+
 📄 Lisensi
+
 Proyek ini dibuat untuk keperluan pendidikan dan skripsi. Bebas digunakan dan dimodifikasi.
