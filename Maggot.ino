@@ -22,7 +22,7 @@
 #include <WiFiManager.h>
 
 // === Konfigurasi Thinger.io ===
-ThingerESP8266 thing("Madar", "esp8266maggot", "maggot2121");
+ThingerESP8266 thing("USERNAME", "DEVICE_NAME", "DEVICE_CREDENTIAL");
 
 // === Inisialisasi Perangkat Keras ===
 LiquidCrystal_I2C lcd(0x27, 16, 2);   // LCD 16x2 I2C
@@ -157,5 +157,5 @@ void kirimData() {
   data["mist"] = mist;
   data["heater"] = heat;
 
-  thing.write_bucket("Skripsi", data);
+  thing.write_bucket("NAMA_DATA_BACKUP", data);
 }
